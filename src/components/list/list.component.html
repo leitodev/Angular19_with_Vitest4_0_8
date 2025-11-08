@@ -1,0 +1,8 @@
+<p>list works!</p>
+<cdk-virtual-scroll-viewport itemSize="56" class="mat-list-viewport"> <!-- 56px is default mat-list-item height -->
+  <mat-list>
+    <mat-list-item *cdkVirtualFor="let item of items">
+      <span matListItemTitle>{{ item.name }}</span>
+    </mat-list-item>
+  </mat-list>
+</cdk-virtual-scroll-viewport>

@@ -1,6 +1,7 @@
 .viewport-container {
-  height: 200px; // Adjust to your needs
+  height: 100px; // Adjust to your needs
   border: 1px solid #ccc;
+
 }
 
 .viewport {
@@ -12,8 +13,9 @@
   height: 50px; // Must match [itemSize]
   line-height: 50px;
   padding: 8px;
+  border-bottom: 1px solid #eee;
   background: #333;
-  color: white;
+  color: #fff;
 }
 
 .mat-list-viewport {
